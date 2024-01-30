@@ -78,7 +78,16 @@ http://www.moneychimp.com/calculator/compound_interest_calculator.htm
 
 Here is a sample run of the program. Remember that your output should look like mine.
 
-<img src="pic1.png" width=500>
+```
+Welcome to the retirement calculator!
+Enter the size of the annual deposit each year: 100
+Enter the interest rate as a decimal: .10
+Enter an integer for the number of years until retirement: 20
+You will have $6300.25 when you retire.
+
+```
+
+<img src="monkey.png" width=500>
 
 ## Part 3: Maximizing the value of a mathematical function  
 
@@ -111,5 +120,11 @@ Enter a: -1
 Enter b: 1
 Enter c: 0.25
 The max value is 0.50 when x is 0.50
+
+Enter a: -4
+Enter b: 0.5
+Enter c: 2
+The max value is 2.02 when x is 0.06
+The max value is 2.02 when x is 0.06
 ```   
 
