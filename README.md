@@ -93,7 +93,7 @@ You will have $6300.25 when you retire.
 
 A lot of what we do in the machine learning part of data science is try to maximize (or minimize) the value of some mathematical function $f(x)$. We will see later how this can help us provide the mostly likely predictions or classifications when we give input to a model.
 
-One way to do this is to sweep through possible values for $x$ and see which one gives us the maxmimum (or minimum) output. You start by setting $x$ to be some small starting value, calculate $f(x)$ with that value of $x$, and then you slowly it increase $x$ by some regular interval, each time calculating $f(x)$ until you $x$ reaches some larger ending value. You keep track of which value of $x$ gave you the largest (or smallest) output. 
+One way to do this is to sweep through possible values for $x$ and see which one gives us the maxmimum (or minimum) output. You start by setting $x$ to be some small starting value, calculate $f(x)$ with that value of $x$, and then slowly increase $x$ by some regular interval, each time calculating $f(x)$, until $x$ reaches some larger ending value. You keep track of which value of $x$ gave you the largest (or smallest) output. 
 
 In this problem, we  want to find the value of $x$ that maximizes $f(x)$ where $f(x)$ is the quadratic function you all remember from high school:
 
