@@ -50,7 +50,7 @@ Using IDLE, open a new file and save it into your `ps3-yourusername` repo as `ps
 * Close the file `my_playlist.txt`
 * Print the number of songs in the playlist.
 
-4. A call `main()` at the end of the program.
+4. A call to `main()` at the end of the program.
 
 Here's a sample run of this program. Your output should look the same, but of course with different song names. You may use any fancy tricks with `print()` and string manipulation to make your output look like the sample.
 
