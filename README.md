@@ -1,9 +1,10 @@
 # Problem Set 3
 You have accepted the invitation in GitHub Classroom. If you have not cloned your copy of the repo (`ps3-yourusername`) down to your own machine using GitHub Desktop, do so now.
 
-You will be adding two new Python files to your repo:
+You will be adding three new Python files to your repo:
 
 * `ps3-part1.py`
+* `ps3-part2.py`
 * `ps3-part2.py`
 
 You will then commit and push these new files to your repo on GitHub on the internet using GitHub Desktop. If you don't remember how to do this, please review the instructions in Problem Set 1.
@@ -67,13 +68,17 @@ $f(x) = ax^2 + bx + c$
 
 The user will supply the values for $a$, $b$, and $c$. You will start with $x=0$ and increment $x$ by 0.01 until you after hit $x=1$. At the end, you will report the maximum value of $f(x)$ over $0 \le x \le 1$, and the value of $x$ that gave this maximum value.
 
+Here's what the equation will look like in Python:
+
+`a*x**2+b*x+c`
+
 Here's what your program should contain
 
-1. Write a `main()` function that asks the user for $a$, $b$, and $c$.
+1. Write a `main()` function that asks the user for $a$, $b$, and $c$. Then call `max_while()` passing in the user's input.
 
-2. Write a function called `max_while(a, b, c)` that calculates the value of $x$ that maximizes the quadratic function and then reports that maximum value and $x$ **USING A WHILE LOOP**.
+2. Write a function called `max_while(a, b, c)` that calculates the value of $x$ that maximizes the quadratic function and then reports that maximum value and $x$ displaying the first two decimal places **USING A WHILE LOOP**. 
 
-3. Write a function called `max_while(a, b, c)` that calculates the value of $x$ that maximizes the quadratic function and then reports that maximum value and $x$ **USING A FOR LOOP**.
+BONUS. Write a function called `max_for(a, b, c)` that calculates the value of $x$ that maximizes the quadratic function and then reports that maximum value and $x$ displaying the first two decimal places **USING A FOR LOOP**. Remember, `range()` can only take integer arguments, but you need to increment by 0.01. 
 
 Your input and output messages must conform to the following examples: 
 
