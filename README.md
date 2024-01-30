@@ -56,7 +56,31 @@ Here's a sample run of this program. Your output should look the same, but of co
 
 <img src="part1.png" width=500>
 
-## Part 2: Maximizing the value of a mathematical function  
+
+## Part 2: Iterative interest calculator
+
+For this problem, you will build a financial calculator that can be used to calculate the future value of a retirement account. This is an idealized retirement account, where each year the person deposits the same amount of money on January 1, and the same interest rate is applied to the balance on December 31.
+
+For example, suppose you deposit $100.00 per year for three years in a retirement account that earns 10% interest. On January 1 of year 1, you deposit your $100. On December 31, you will earn $10.00 interest (i.e., 10% of $100.00) giving you a balance of $110.00 after 1 year. On January of year 2 you will deposit another $100.00, giving you a balance of $210.00. Then, on December 31 of year 2, you will earn $21.00 interest (i.e., 10% of $210.00) giving you a balance of $231.00 after 2 years. On January 1 of year 3, you again deposit $100.00, giving you $331. On December 31, interest is calculated ($33.10) and added to the current balance ($331), giving you $364.10. 
+
+Your program will be called `part1.py` and will do the following. **You don't need to write anything into its own function.**
+
+1. Print a message explaining that it is a retirement calculator and will be asking some questions.
+2. Prompt the user to enter the size of the annual deposit in dollars.
+3. Prompt the user to enter the interest rate **as a decimal** (so 10% would be 0.10).
+4. Prompt the user to enter the number of years until retirement **as an integer**.
+5. **Using a `for` loop,** calculate the  value of the retirement account when the user retires.
+6. Print the  value of the retirement account when the user retires.
+
+You can check your math with this handy calculator, entering 0 for the `Current principal`.
+
+http://www.moneychimp.com/calculator/compound_interest_calculator.htm
+
+Here is a sample run of the program. Remember that your output should look like mine.
+
+<img src="pic1.png" width=500>
+
+## Part 3: Maximizing the value of a mathematical function  
 
 A lot of what we do in the machine learning part of data science is try to maximize (or minimize) the value of some mathematical function $f(x)$. We will see later how this can help us provide the mostly likely predictions or classifications when we give input to a model.
 
@@ -76,11 +100,16 @@ Here's what your program should contain
 
 1. Write a `main()` function that asks the user for $a$, $b$, and $c$. Then call `max_while()` passing in the user's input.
 
-2. Write a function called `max_while(a, b, c)` that calculates the value of $x$ that maximizes the quadratic function and then reports that maximum value and $x$ displaying the first two decimal places **USING A WHILE LOOP**. 
+2. Write a function called `max_while(a, b, c)` that calculates the value of $x$ that maximizes the quadratic function and then reports that maximum value and $x$ displaying the first two decimal places **USING A WHILE LOOP**.
 
-BONUS. Write a function called `max_for(a, b, c)` that calculates the value of $x$ that maximizes the quadratic function and then reports that maximum value and $x$ displaying the first two decimal places **USING A FOR LOOP**. Remember, `range()` can only take integer arguments, but you need to increment by 0.01. 
+3. **REQUIRED FOR CS MAJORS, BONUS FOR EVERYONE ELSE:** Write a function called `max_for(a, b,c)` that that calculates the value of $x$ that maximizes the quadratic function and then reports that maximum value and $x$ displaying the first two decimal places **USING A FOR LOOP**. Remember that `range()` takes only integer arguments, so you will have to think creatively!
 
-Your input and output messages must conform to the following examples: 
+Your input and output messages must conform to the following sample runs: 
 
-   
+```
+Enter a: -1
+Enter b: 1
+Enter c: 0.25
+The max value is 0.50 when x is 0.50
+```   
 
