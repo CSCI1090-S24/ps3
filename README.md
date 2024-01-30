@@ -140,7 +140,6 @@ The max value is 2.02 when x is 0.06
 ## Reminder: Important Guidelines
 * Your problem set must be submitted with GitHub. If you are struggling to use GitHub, the TAs or I can help during office hours.
 * You do not need to do error checking of user input. You can assume the user will always enter the kind of input you ask for.
-* Comments are not required yet, but they are strongly encouraged so that we can give you extra credit.
 * Points will be deducted if your output does not match the required format.
 * Points will be deducted if your files are not named as required.
 * Points will be deducted if your files are not in the correct location (i.e., in the top-level directory where you see the `README`.)
