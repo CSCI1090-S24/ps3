@@ -113,7 +113,7 @@ Here's what your program should containL
 
 3. **REQUIRED FOR CS MAJORS, BONUS FOR EVERYONE ELSE:** A function called `max_for(a, b,c)` that that calculates the value of $x$ that maximizes the quadratic function and then reports that maximum value and $x$ displaying the first two decimal places **using a for loop**. Remember that `range()` takes only integer arguments, so you will have to think creatively!
 
-Your input and output messages must conform to the following sample runs: 
+Your input and output messages must conform to the following sample runs. Keep in mind that if you implement step 3, the final line will be repeated by the `max_for()` function.
 
 ```
 Enter a: -1
@@ -124,7 +124,6 @@ The max value is 0.50 when x is 0.50
 Enter a: -4
 Enter b: 0.5
 Enter c: 2
-The max value is 2.02 when x is 0.06
 The max value is 2.02 when x is 0.06
 ```   
 
