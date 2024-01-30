@@ -37,7 +37,7 @@ Using IDLE, open a new file and save it into your `ps3-yourusername` repo as `ps
 * Call the function `print_playlist()`,
 
 
-1. A function `save_playlist(mylist)` where `mylist` is a list variable. This function will do the following:
+2. A function `save_playlist(mylist)` where `mylist` is a list variable. This function will do the following:
 
 * Open a file called `my_playlist.txt` for writing.
 * Write out each element in the list argument `mylist` to `my_playlist.txt`, where each song is preceded by `Song X: ` where `X` is the number of the song in the list. Remember to insert a new line after each song.
@@ -46,10 +46,14 @@ Using IDLE, open a new file and save it into your `ps3-yourusername` repo as `ps
 2. A function called `print_playlist()`, which does the following:
 
 * Open the file `my_playlist.txt` for reading.
-* Print out each line in the file followed by `GREAT CHOICE!`
+* Print out each line in the file. Remember to remove the new line or to suppress the automatic new line with `print()`!
 * Close the file `my_playlist.txt`
+* Print the number of songs in the playlist.
 
-Here's an example run of this program.
+Here's an sample run of this program. Your output should look the same.
+
+<img src="part1.png" width=500>
+
 
    
 
