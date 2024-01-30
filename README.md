@@ -54,7 +54,7 @@ Using IDLE, open a new file and save it into your `ps3-yourusername` repo as `ps
 
 Here's a sample run of this program. Your output should look the same, but of course with different song names. You may use any fancy tricks with `print()` and string manipulation to make your output look like the sample.
 
-<img src="part1.png" width=500>
+<img src="img/part1.png" width=500>
 
 
 ## Part 2: Iterative interest calculator
@@ -70,13 +70,13 @@ Your program will be called `part1.py` and will do the following. **You don't ne
 3. Prompt the user to enter the interest rate **as a decimal** (so 10% would be 0.10).
 4. Prompt the user to enter the number of years until retirement **as an integer**.
 5. **Using a `for` loop,** calculate the  value of the retirement account when the user retires.
-6. Print the  value of the retirement account when the user retires.
+6. Print the value of the retirement account when the user retires rounded to two decimal places.
 
 You can check your math with this handy calculator, entering 0 for the `Current principal`.
 
 http://www.moneychimp.com/calculator/compound_interest_calculator.htm
 
-Here is a sample run of the program. Remember that your output should look like mine.
+Here is a sample run of the program and the corresponding info entered into the calculator. Remember that your output should look like mine. You should use what you know about print and f-strings to make it look right!
 
 ```
 Welcome to the retirement calculator!
@@ -87,7 +87,7 @@ You will have $6300.25 when you retire.
 
 ```
 
-<img src="monkey.png" width=500>
+<img src="img/monkey.png" width=500>
 
 ## Part 3: Maximizing the value of a mathematical function  
 
