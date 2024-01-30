@@ -5,9 +5,9 @@ You will be adding three new Python files to your repo:
 
 * `ps3-part1.py`
 * `ps3-part2.py`
-* `ps3-part2.py`
+* `ps3-part3.py`
 
-You will then commit and push these new files to your repo on GitHub on the internet using GitHub Desktop. If you don't remember how to do this, please review the instructions in Problem Set 1.
+You will commit and push these new files to your repo on GitHub on the internet using GitHub Desktop. If you don't remember how to do this, please review the instructions in Problem Set 1.
 
 If you are having trouble with GitHub come to office hours. 
 
