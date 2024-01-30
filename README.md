@@ -33,8 +33,8 @@ Using IDLE, open a new file and save it into your `ps3-yourusername` repo as `ps
 * Ask the user to enter a song they'd like in their playlist.
    - While they enter anything but "DONE", append that song to `songlist`, and ask for another song.
    - When they enter "DONE", stop asking them for more songs.
-* Call the function `save_playlist()` passing in the `songlist` argument. (See below.)
-* Call the function `print_playlist()`,
+* Call the function `save_playlist()` passing in the `songlist` argument. (See #2 below.)
+* Call the function `print_playlist()`. (See #3 below)
 
 
 2. A function `save_playlist(mylist)` where `mylist` is a list variable. This function will do the following:
