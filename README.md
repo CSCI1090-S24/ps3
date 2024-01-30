@@ -95,23 +95,23 @@ A lot of what we do in the machine learning part of data science is try to maxim
 
 One way to do this is to sweep through possible values for $x$ and see which one gives us the maxmimum (or minimum) output. You start by setting $x$ to be some small starting value, calculate $f(x)$ with that value of $x$, and then you slowly it increase $x$ by some regular interval, each time calculating $f(x)$ until you $x$ reaches some larger ending value. You keep track of which value of $x$ gave you the largest (or smallest) output. 
 
-In this problem, we might want to find the value of $x$ that maximizes $f(x)$ where $f(x)$ is the quadratic function you all remember from high school:
+In this problem, we  want to find the value of $x$ that maximizes $f(x)$ where $f(x)$ is the quadratic function you all remember from high school:
 
 $f(x) = ax^2 + bx + c$
 
-The user will supply the values for $a$, $b$, and $c$. You will start with $x=0$ and increment $x$ by 0.01 until you after hit $x=1$. At the end, you will report the maximum value of $f(x)$ over $0 \le x \le 1$, and the value of $x$ that gave this maximum value.
+The user will supply the values for $a$, $b$, and $c$. You will start with $x=0$ and increment $x$ by 0.01 up to and including $x=1$. At the end, you will report the maximum value of $f(x)$ over $0 \le x \le 1$, and the value of $x$ that gave this maximum value.
 
 Here's what the equation will look like in Python:
 
 `a*x**2+b*x+c`
 
-Here's what your program should contain
+Here's what your program should containL
 
-1. Write a `main()` function that asks the user for $a$, $b$, and $c$. Then call `max_while()` passing in the user's input.
+1. A `main()` function that asks the user for $a$, $b$, and $c$. Then call `max_while()` passing in the user's input. (The main function should also call `max_for(a,b,c)` from step 3, if you implement it.)
 
-2. Write a function called `max_while(a, b, c)` that calculates the value of $x$ that maximizes the quadratic function and then reports that maximum value and $x$ displaying the first two decimal places **USING A WHILE LOOP**.
+2. A function called `max_while(a, b, c)` that calculates the value of $x$ that maximizes the quadratic function and then reports that maximum value and $x$ displaying the first two decimal places **using a while loop**.
 
-3. **REQUIRED FOR CS MAJORS, BONUS FOR EVERYONE ELSE:** Write a function called `max_for(a, b,c)` that that calculates the value of $x$ that maximizes the quadratic function and then reports that maximum value and $x$ displaying the first two decimal places **USING A FOR LOOP**. Remember that `range()` takes only integer arguments, so you will have to think creatively!
+3. **REQUIRED FOR CS MAJORS, BONUS FOR EVERYONE ELSE:** A function called `max_for(a, b,c)` that that calculates the value of $x$ that maximizes the quadratic function and then reports that maximum value and $x$ displaying the first two decimal places **using a for loop**. Remember that `range()` takes only integer arguments, so you will have to think creatively!
 
 Your input and output messages must conform to the following sample runs: 
 
@@ -127,4 +127,24 @@ Enter c: 2
 The max value is 2.02 when x is 0.06
 The max value is 2.02 when x is 0.06
 ```   
+
+---
+
+## Deadline: Monday, February 5, 2024, at 11:59pm EST
+
+## Deliverables
+
+1. `ps3-part1.py` (Part 1: Playlist)
+2. `ps3-part2.py` (Part 2: Interest Calculator)
+3. `ps3-part3.py` (Part 3: Maximizing f(x))
+
+## Reminder: Important Guidelines
+* Your problem set must be submitted with GitHub. If you are struggling to use GitHub, the TAs or I can help during office hours.
+* You do not need to do error checking of user input. You can assume the user will always enter the kind of input you ask for.
+* Comments are not required yet, but they are strongly encouraged so that we can give you extra credit.
+* Points will be deducted if your output does not match the required format.
+* Points will be deducted if your files are not named as required.
+* Points will be deducted if your files are not in the correct location (i.e., in the top-level directory where you see the `README`.)
+* Points will be deducted if you do not include comments as desribed above.
+* Points will be deducted if you do not include your honot pledge at the top of eachf file.
 
