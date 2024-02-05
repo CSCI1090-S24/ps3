@@ -63,7 +63,7 @@ For this problem, you will build a financial calculator that can be used to calc
 
 For example, suppose you deposit $100.00 per year for three years in a retirement account that earns 10% interest. On January 1 of year 1, you deposit your $100. On December 31, you will earn $10.00 interest (i.e., 10% of $100.00) giving you a balance of $110.00 after 1 year. On January of year 2 you will deposit another $100.00, giving you a balance of $210.00. Then, on December 31 of year 2, you will earn $21.00 interest (i.e., 10% of $210.00) giving you a balance of $231.00 after 2 years. On January 1 of year 3, you again deposit $100.00, giving you $331. On December 31, interest is calculated ($33.10) and added to the current balance ($331), giving you $364.10. 
 
-Your program will be called `part1.py` and will do the following. **You don't need to write anything into its own function.**
+Your program will be called `ps3-part2.py` and will do the following. **You don't need to write anything into its own function.**
 
 1. Print a message explaining that it is a retirement calculator and will be asking some questions.
 2. Prompt the user to enter the size of the annual deposit in dollars.
